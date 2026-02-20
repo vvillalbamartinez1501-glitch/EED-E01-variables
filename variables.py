@@ -22,8 +22,25 @@ def pedirNumero(texto):
 
 def imprimirEdad():
     edad = pedirNumero("Introduce tu edad")
+    int(edad)
     if edad < 18:
         print("Eres menor de edad")
     else: 
         print("Eres mayor de edad")
-imprimirEdad()
+# imprimirEdad()
+
+
+# peticion de datos
+def calcularEdad():
+    fechaNacimiento = input("En qué año naciste?")
+    anioNacimiento = int(fechaNacimiento)
+    print("Tienes" , 2026 - anioNacimiento,"años")
+    print(type(anioNacimiento))
+
+vf = 3.141592653589793238462638327950288419716939937510592307
+print((vf))
+
+vf=float("2.3")
+print("vf: ",vf)
+vf = 3.9
+
